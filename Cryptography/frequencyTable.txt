@@ -1,0 +1,30 @@
+Letter Frequency Table: 
+
+
+Letter 	 Frequency
+a	 1
+b	 1
+c	 9
+d	 0
+e	 3
+f	 5
+g	 4
+h	 1
+i	 0
+j	 1
+k	 0
+l	 4
+m	 0
+n	 0
+o	 4
+p	 0
+q	 1
+r	 2
+s	 1
+t	 7
+u	 3
+v	 3
+w	 5
+x	 8
+y	 1
+z	 2
