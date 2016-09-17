@@ -8,11 +8,11 @@ Encoding and Encryption:
 - Block Ciphers (C++ & Python)
  
 Networking:
-- Client/Server Sockets (Python)
+- Client/Server Sockets on Raspberry Pi (Python)
 
 Hardware Description Language (HDL)
 - Up Down Counter (VHDL)
-- - Traffic Light Intersection Simulation (VHDL)
+- Traffic Light Intersection Simulation (VHDL)
 
 Machine Learning:
 - Genetic Algorithm solving 2D Stacking Problem (MATLAB)
