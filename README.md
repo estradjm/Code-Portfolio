@@ -17,9 +17,15 @@
 ### Machine Learning:
 - Genetic Algorithm solving 2D Stacking Problem (MATLAB)
 - Speaker Recognition wrapper for ALIZE/LIA RAL, SPRO, and other toolboxes (MATLAB)
+- Decision Tree (in progress)
+- Logistic Regression (in progress)
+- Convolutional Neural Network (in progress)
 
 ### Signal & Image Processing: 
 - Zelda's Lost Woods song produced only with DSP concepts from sheet music (MATLAB)
 - Cleaning an unknown noise from a signal (MATLAB)
 - Image Processing Techniques including Gaussian Blurring (MATLAB)
 
+
+### Digital Communications: 
+- 
