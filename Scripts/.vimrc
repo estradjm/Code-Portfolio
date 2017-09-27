@@ -16,6 +16,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'Lokaltog/powerline', {'rtp': 'powerline/bindings/vim/'}
 Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
@@ -31,7 +32,12 @@ syntax on
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Pathogen.vim Settings
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
 
+" Modelines for Vim
 set modeline
 set undofile
 set laststatus=2
@@ -55,3 +61,6 @@ nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+
+autocmd vimenter * NERDTree
