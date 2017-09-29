@@ -29,3 +29,6 @@
 
 ### Digital Communications: 
 - 
+
+### Scripts: 
+- My custom Vim configuration
