@@ -1,1 +1,12 @@
 .vim linguist-vendored
+
+.vim/filetype.vim linguist-vendored
+
+.vim/autoload linguist-vendored
+.vim/autoload/pathogen.vim linguist-vendored
+
+.vim/bundle linguist-vendored
+
+.vim/syntax linguist-vendored
+.vim/syntax/setcolors.vim linguist-vendored
+.vim/syntax/tcl.vim linguist-vendored
