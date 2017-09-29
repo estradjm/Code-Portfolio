@@ -55,6 +55,7 @@ filetype plugin indent on    " required
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+filetype plugin on
 
 " Modelines for Vim
 set modeline
@@ -79,5 +80,13 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+nmap <F2> :TagbarToggle<CR>
+
+map <F10> :NextColorScheme<CR>
+imap <F10> <ESC> :NextColorScheme<CR>
+map <F9> :PreviousColorScheme<CR>
+imap <F9> <ESC> :PreviousColorScheme<CR>
 
 autocmd vimenter * NERDTree
+
+autocmd FileType apache setlocal commentstring=#\ %s
