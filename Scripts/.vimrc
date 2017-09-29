@@ -24,6 +24,25 @@ Plugin 'jnurmine/Zenburn'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'scrooloose/syntastic'
 Plugin 'nvie/vim-flake8'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+let g:airline#extensions#tabline#enabled = 1
+
+ Plugin 'jreybert/vimagit'
+
+set t_Co=256
+set encoding=utf-8
+set laststatus=2
+
+let g:airline_powerline_fonts = 1
+"if !exists('g:airline_symbols')
+"	let g:airline_symbols = {}
+"endif
+"let g:airline_symbols.space = "\ua0"
+set ttimeoutlen=50
+set guifont=Source\ Code\ Pro\ for\ Powerline
+let g:airline#extensions#tabline#enabled = 1
 
 let python_highlight_all=1
 syntax on
@@ -40,7 +59,6 @@ filetype plugin indent on
 " Modelines for Vim
 set modeline
 set undofile
-set laststatus=2
 set splitbelow
 set splitright
 set number
@@ -54,7 +72,6 @@ set showmatch
 autocmd FileType python noremap <buffer> <F4> :exec '!python' shellescape(@%, 1)<CR>
 
 set background=dark
-set encoding=utf-8
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>
