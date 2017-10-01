@@ -8,8 +8,13 @@ echo -n "This installation requires sudo priveleges to install exuberant-ctags. 
 read answer
 if echo "$answer" | grep -iq "^y";then
 
+echo "Installing ctags..."
 sudo apt-get install exuberant-ctags
 
+echo "Installing terminator..."
+sudo apt-get install terminator
+
+echo "Creating directories needed if they do not exist..."
 cd ~
 mkdir -p .vim
 cd .vim
@@ -18,11 +23,13 @@ mkdir -p bundles/
 mkdir -p autoload/
 
 # Get Pathogen Plugin Installer
+echo "Getting Pathogen plugin manager..."
 cd autoload
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
 cd ../
 
 # Get all Plug-ins for Pathogen - comment out the ones that you do not want
+echo "Getting all the plugins..."
 cd bundles
 
 #ctrlp
@@ -116,6 +123,11 @@ git clone git@github.com:vim-scripts/Zenburn.git
 git clone git@github.com:vim-scripts/tcl.vim.git
 
 cd ../
+
+echo "Installing all plugins...."
+vim +PluginInstall +qall 
+
+echo "Install and configuration complete..."
 
 else
 	echo "Installation Aborted."
