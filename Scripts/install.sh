@@ -14,8 +14,12 @@ sudo apt-get install exuberant-ctags
 echo "Installing terminator..."
 sudo apt-get install terminator
 
+# Replacing vim config
+command cp -rfu .vimrc ~
+
 echo "Creating directories needed if they do not exist..."
 cd ~
+
 mkdir -p .vim
 cd .vim
 mkdir -p syntax/
