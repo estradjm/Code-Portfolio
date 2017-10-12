@@ -81,6 +81,7 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 nmap <F2> :TagbarToggle<CR>
+nmap <F3> :NERDTreeToggle<CR>
 
 map <F10> :NextColorScheme<CR>
 imap <F10> <ESC> :NextColorScheme<CR>
