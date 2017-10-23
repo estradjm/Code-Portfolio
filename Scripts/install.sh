@@ -15,6 +15,7 @@ echo "Installing terminator as new terminal program..."
 sudo apt-get install terminator
 
 # Replacing vim config
+echo "Replace .vimrc file..."
 command cp -rfu .vimrc ~
 
 echo "Creating directories needed if they do not exist..."
