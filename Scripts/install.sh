@@ -11,7 +11,7 @@ if echo "$answer" | grep -iq "^y";then
 echo "Installing ctags..."
 sudo apt-get install exuberant-ctags
 
-echo "Installing terminator..."
+echo "Installing terminator as new terminal program..."
 sudo apt-get install terminator
 
 # Replacing vim config
@@ -52,7 +52,7 @@ git clone git@github.com:scrooloose/nerdcommenter.git
 git clone git@github.com:ryanoasis/nerd-fonts.git
 
 # Icons for nerd tree, airline, and powerline
-git@github.com:ryanoasis/vim-devicons.git
+git clone git@github.com:ryanoasis/vim-devicons.git
 
 #nerdtree
 git clone git@github.com:scrooloose/nerdtree.git
