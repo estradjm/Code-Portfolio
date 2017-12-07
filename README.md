@@ -1,4 +1,5 @@
 # Schoolwork and Projects
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/estradjm/Class-Work/blob/master/LICENSE.md)
 
 ### Data Structures:
 - NIM Game (C++)
