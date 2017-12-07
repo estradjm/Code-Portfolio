@@ -1,12 +1,19 @@
 # Schoolwork and Projects
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/estradjm/Class-Work/blob/master/LICENSE.md)
 
-### Data Structures:
+### C++ OOP and Data Structures:
 - NIM Game (C++)
+- Maze Solver (C++)
+- Allegro Based Mario Platformer Game (C++)
 
-### Encoding and Encryption:
-- Substitution Ciphers (C++ & Python)
-- Block Ciphers (C++ & Python)
+### Parallel Programming:
+- Parallel Gaussian Blurring (C with OpenMP, MPI, OpenACC, and CUDA)
+
+### Information Security:
+- Padding Oracle Attack on AES CBC Mode encrypted server communication (Python)
+- Werewolves Server Game - Exploits (C, Python & Bash)
+- Cryptography Substitution Ciphers (C++ & Python)
+- Cryptography Block Ciphers (C++ & Python)
  
 ### Networking:
 - Client/Server Sockets on Raspberry Pi (Python)
@@ -18,9 +25,9 @@
 ### Machine Learning:
 - Genetic Algorithm solving 2D Stacking Problem (MATLAB)
 - Speaker Recognition wrapper for ALIZE/LIA RAL, SPRO, and other toolboxes (MATLAB)
-- Decision Tree (in progress)
-- Logistic Regression (in progress)
-- Convolutional Neural Network (in progress)
+- Decision Trees (Python)
+- Logistic Regression (Python)
+- Convolutional Neural Network (Python)
 
 ### Signal & Image Processing: 
 - Zelda's Lost Woods song produced only with DSP concepts from sheet music (MATLAB)
@@ -29,7 +36,8 @@
 
 
 ### Digital Communications: 
-- 
+- Data Parser for Qi Compliant Inductive charger transmitter and reciever platform (Python)
 
 ### Scripts: 
 - My custom Vim configuration
+
