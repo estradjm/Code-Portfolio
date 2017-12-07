@@ -1,16 +1,22 @@
 # Schoolwork and Projects
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/estradjm/Class-Work/blob/master/LICENSE.md)
 
-### C++ OOP and Data Structures:
+An archive of projects in several different languages and target architectures with detailed reports and documentation for classes, organized based on general topic and individual project folders, with the language(s) in the project used clearly labelled for each project below. Projects in this repository include large and small group projects, thesis work, individual projects, and my personal VIM configuration with automatic installer script. Languages include C, C++, Python, Shell Scripting/Bash, VHDL, MATLAB, and several parallel programming languages and pragma based languages including OpenMP, MPI, OpenACC, and CUDA C. All documentation is developed in LaTeX using ShareLaTeX and is included in the repositories if used as part of the project in form of a report or presentation given in class or part of the work.  
+
+This is a continuously updated active repository that includes projects that have been used for my coursework and released publically as a code portfolio for potential employers, and for general educational purposes. 
+
+All code and projects are original work and copyrights belong to those who worked on the code (myself and any team members in the group projects listed in the respective project folder, or the instructor for provided code or original instructions for projects).
+
+### C++ OOP, Video Games, and Data Structures:
 - NIM Game (C++)
-- Maze Solver (C++)
+- Allegro Based Maze Solver (C++)
 - Allegro Based Mario Platformer Game (C++)
 
 ### Parallel Programming:
 - Parallel Gaussian Blurring (C with OpenMP, MPI, OpenACC, and CUDA)
 
 ### Information Security:
-- Padding Oracle Attack on AES CBC Mode encrypted server communication (Python)
+- Padding Oracle Attack on AES CBC Mode Encrypted Server Communication (Python)
 - Werewolves Server Game - Exploits (C, Python & Bash)
 - Cryptography Substitution Ciphers (C++ & Python)
 - Cryptography Block Ciphers (C++ & Python)
@@ -34,10 +40,10 @@
 - Cleaning an unknown noise from a signal (MATLAB)
 - Image Processing Techniques including Gaussian Blurring (MATLAB)
 
-
 ### Digital Communications: 
 - Data Parser for Qi Compliant Inductive charger transmitter and reciever platform (Python)
 
 ### Scripts: 
-- My custom Vim configuration
+- My custom Vim configuration (Bash)
+
 
