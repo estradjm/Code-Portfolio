@@ -1,0 +1,28 @@
+digraph "callgraph" {
+  F1f83468 [label="(below main)\n162 744"];
+  F1f85418 [label="main\n162 744"];
+  F1fa0e68 [label="__GI_mempcpy\n13 643"];
+  F1fdd508 [label="_dl_fixup\n12 546"];
+  F1fddc88 [label="_dl_lookup_symbol_x\n11 514"];
+  F2053d88 [label="read_image\n162 744"];
+  F20545c8 [label="get_ppm\n33 193"];
+subgraph "cluster1" { label="<cycle 1>";
+  F1f43180 [label="<cycle 1>\n129 451"];
+  F1f95608 [label="_dl_addr <cycle 1>\n78 092"];
+  F1f96678 [label="_dl_runtime_resolve_avx'2 <cyc...\n15 653"];
+  F1fad998 [label="_IO_default_xsgetn <cycle 1>\n14 789"];
+}
+  F1f43180 -> F1f95608 [weight=2,label="78 092 (0x)"];
+  F1f43180 -> F1f96678 [weight=2,label="15 653 (0x)"];
+  F1f43180 -> F1fad998 [weight=2,label="14 789 (0x)"];
+  F1f83468 -> F1f85418 [weight=2,label="162 744 (0x)"];
+  F1f85418 -> F2053d88 [weight=2,label="162 744 (2x)"];
+  F1f96678 -> F1fdd508 [weight=2,label="12 546 (14x)"];
+  F1fad998 -> F1fa0e68 [weight=2,label="13 643 (26x)"];
+  F1fdd508 -> F1fddc88 [weight=2,label="11 514 (14x)"];
+  F2053d88 -> F1f43180 [weight=2,label="129 451 (7x)"];
+  F2053d88 -> F1f96678 [weight=2,label="129 451 (7x)"];
+  F2053d88 -> F20545c8 [weight=2,label="33 193 (1x)"];
+  F20545c8 -> F1f43180 [weight=2,label="33 072 (8x)"];
+  F20545c8 -> F1f96678 [weight=2,label="32 633 (6x)"];
+}
