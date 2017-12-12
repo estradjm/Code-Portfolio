@@ -1,0 +1,52 @@
+* VPN to VMs
+==============================================================================
+# cd /b146vpn
+# openvpn b146vpn-udp-1194.ovpn
+* use CS username and CS password
+
+# ping 192.168.1.1
+# ssh -l cs444 192.168.1.151
+# ssh -l cs444 192.168.1.152
+# ssh -l cs444 192.168.1.153
+# ssh -l cs444 192.168.1.154
+# ssh -l cs444 192.168.1.155
+
+
+* install
+==============================================================================
+bash ./install.sh           ### set moderator password
+vi ./makeusers.py 9         ### start groups with 0: "i-1" --> "i"
+python ./makeusers.py 9     ### set group0 through group 9 passwords
+
+
+* start groups first (server doesn't listen for group0), then moderator
+==============================================================================
+sudo -u group1 /usr/bin/python /home/group1/client.py
+sudo -u group2 /usr/bin/python /home/group2/client.py
+sudo -u group3 /usr/bin/python /home/group3/client.py
+sudo -u group4 /usr/bin/python /home/group4/client.py
+sudo -u group5 /usr/bin/python /home/group5/client.py
+sudo -u group6 /usr/bin/python /home/group6/client.py
+sudo -u group7 /usr/bin/python /home/group7/client.py
+sudo -u group8 /usr/bin/python /home/group8/client.py
+sudo -u group9 /usr/bin/python /home/group9/client.py
+
+cd /home/moderator && sudo -u moderator /usr/bin/python /home/moderator/server.py
+
+
+# waits for a while for all groups to connect, then starts
+
+
+* exercise race condition
+==============================================================================
+su - group9
+/home/moderator/race /home/moderator/log/10m.log
+
+
+* git notes
+==============================================================================
+git clone https://github.com/arigoins/werewolves.git # Creates local copy of repo
+git add race.c # Stage your changes to local repo
+git commit -m "your commit message here" # Commit changes to local repo
+git remote add origin https://github.com/arigoins/werewolves.git
+git push -u origin master # Push changes to github
