@@ -54,7 +54,6 @@ my_image=imread('image.jpg');
 my_image = double(my_image);
 my_image = mean(my_image,3);
 
-
 %testing random values for x and y interval:
 len = ceil(sqrt(-log(1e-6*2*pi*sigma^2)*2*sigma^2));
 [X, Y] = meshgrid(-len:len, -len:len);
