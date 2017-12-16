@@ -39,6 +39,10 @@ All code and projects are original work and copyrights belong to those who worke
 - Cleaning an unknown noise from a signal (MATLAB)
 - Image Processing Techniques including Gaussian Blurring (MATLAB)
 
+### Control Systems:
+- Automotive Suspension System Analysis and Simulation -- 10th High Order Control System Model (MATLAB and Simulink)
+- Satellite Antenna Azimuth Position Control System (MATLAB and Simulink)
+
 ### Digital Communications: 
 - Data Parser for Qi Compliant Inductive charger transmitter and reciever platform (Python)
 
