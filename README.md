@@ -22,6 +22,7 @@ All code and projects are original work and copyrights belong to those who worke
  
 ### Networking:
 - Client/Server Sockets on Raspberry Pi (Python)
+- Packet Forwarding (C++)
 
 ### Hardware Description Language (HDL):
 - Up Down Counter (VHDL)
