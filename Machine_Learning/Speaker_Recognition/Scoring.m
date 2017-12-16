@@ -28,3 +28,34 @@ ind=1;
 [farTMP,pdTMP] = perfcurve([ones(size(user(:,1))); zeros(size(impos(:,1)))],[user(:,1); impos(:,1)],1);
 
 detc = [farTMP 1-pdTMP];
+
+ EER=calculateEER(detc);
+% if iter>=iter2
+%     EER(iter)=calculateEER(detc);
+%     subplot(2,4,iter)
+%     plot(detc(:,1)',detc(:,2)','h-',EER(iter),EER(iter),'xr');
+%     title(regexprep(GMM_Test(findstr(GMM_Test,'Cond'):end),'_',' '));
+%     ylabel('False Rejection Probability');
+%     xlabel('False Acceptance Probability');
+%     text(.5,.5,['EER = ' num2str(EER(iter))])
+% 
+% elseif iter<=iter2
+%     EER(iter2-8)=calculateEER(detc);
+%     subplot(2,4,iter2-8)
+%     plot(detc(:,1)',detc(:,2)','h-',EER(iter2-8),EER(iter2-8),'xr');
+%     title(regexprep(GMM_Test(findstr(GMM_Test,'Cond'):end),'_',' '));
+%     ylabel('False Rejection Probability');
+%     xlabel('False Acceptance Probability');
+%     text(.5,.5,['EER = ' num2str(EER(iter2-8))])
+% end
+
+% %figure(iter);
+% subplot(2,4,iter)
+% plot(detc(:,1)',detc(:,2)','h-',EER(iter),EER(iter),'xr');
+% title(regexprep(GMM_Test(findstr(GMM_Test,'Cond'):end),'_',' '));
+% ylabel('False Rejection Probability');
+% xlabel('False Acceptance Probability');
+% text(.5,.5,['EER = ' num2str(EER(iter))])
+% 
+% 
+
