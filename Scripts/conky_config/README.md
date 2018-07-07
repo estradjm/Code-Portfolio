@@ -12,6 +12,6 @@ To install, simply run:
 CAUTION: your .conkyrc file will be replaced with the .vimrc file in the repository!
 
 ### Screenshots:
-<img src="https://github.com/estradjm/Code-Portfolio/blob/master/Scripts/conky_config/conky_display.jpg" width="100%"></img>
+<img src="https://github.com/estradjm/Code-Portfolio/blob/master/Scripts/conky_config/conky_display.jpg" width="50%"></img>
 
 
