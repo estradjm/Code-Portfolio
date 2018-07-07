@@ -5,7 +5,7 @@
 
 Gaussian Blurring Stencil Operation using OpenMP, MPI, OpenACC, and CUDA.
 
-### Comprehensive Parallel Optimization Report: 
+### Comprehensive Parallel Optimization Report in LaTeX: 
 https://www.sharelatex.com/project/58e6fca72c8b1d8313053522
 
 
