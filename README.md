@@ -49,5 +49,5 @@ All code and projects are original work and copyrights belong to those who worke
 
 ### Scripts: 
 - My custom Vim configuration (Bash)
-
+- My custom Conky configuration (Bash)
 
