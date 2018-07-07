@@ -12,10 +12,10 @@ To install, simply run:
 CAUTION: your .vimrc file will be replaced with the .vimrc file in the repository!
 
 ### Screenshots:
-<img src="https://github.com/estradjm/Class-Work/blob/master/Scripts/docs/vim_terminal.png" width="100%"></img>
+<img src="https://github.com/estradjm/Code-Portfolio/tree/master/Scripts/vim_config/docs/vim_terminal.png" width="100%"></img>
 
-<img src="https://github.com/estradjm/Class-Work/blob/master/Scripts/docs/vim_insert.png" width="100%"></img>
+<img src="https://github.com/estradjm/Code-Portfolio/tree/master/Scripts/vim_config/docs/vim_insert.png" width="100%"></img>
 
-<img src="https://github.com/estradjm/Class-Work/blob/master/Scripts/docs/tagbar_vim.png" width="100%"></img>
+<img src="https://github.com/estradjm/Code-Portfolio/tree/master/Scripts/vim_config/docs/tagbar_vim.png" width="100%"></img>
 
 ## Conky Configuration
