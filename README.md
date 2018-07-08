@@ -43,6 +43,7 @@ All code and projects are original work and copyrights belong to those who worke
 ### Control Systems:
 - Automotive Suspension System Analysis and Simulation -- 10th High Order Control System Model (MATLAB and Simulink)
 - Satellite Antenna Azimuth Position Control System (MATLAB and Simulink)
+- LED Address Sign Time of Day Control (Arduino)
 
 ### Digital Communications: 
 - Data Parser for Qi Compliant Inductive charger transmitter and reciever platform (Python)
