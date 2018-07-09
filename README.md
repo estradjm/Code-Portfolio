@@ -33,6 +33,7 @@ All code and projects are original work and copyrights belong to those who worke
 - Speaker Recognition wrapper for ALIZE/LIA RAL, SPRO, and other toolboxes (MATLAB)
 - Decision Trees (Python)
 - Logistic Regression (Python)
+- Naive Bayes (Python)
 - Convolutional Neural Network (Python)
 
 ### Signal & Image Processing: 
