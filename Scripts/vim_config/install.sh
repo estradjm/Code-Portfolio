@@ -19,6 +19,9 @@ sudo apt-get install terminator
 echo "Installing pathogen..."
 sudo apt-get install pathogen
 
+echo "Installing git if not installed..."
+sudo apt-get install git
+
 # Replacing vim config
 echo "Replace .vimrc file..."
 command cp -rfu .vimrc ~
@@ -44,7 +47,7 @@ echo "Getting all the plugins..."
 cd bundle
 
 #ctrlp
-git clone git@github.com:scrooloose/nerdtree.git
+#git clone git@github.com:scrooloose/nerdtree.git
 
 #fontpatcher
 git clone git@github.com:powerline/fontpatcher.git
@@ -83,7 +86,7 @@ git clone git@github.com:tomtom/tcomment_vim.git
 git clone git@github.com:tpope/vim-dispatch.giit
 
 #fugitive
-~/.vim/bundle/Vundle.vimgit clone git@github.com:tpope/vim-fugitive.git
+git clone git@github.com:tpope/vim-fugitive.git
 
 #vimagit
 git clone git@github.com:jreybert/vimagit.git
@@ -125,7 +128,7 @@ git clone git@github.com:suoto/vim-hdl.git
 
 
 #vundle
-git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundles/Vundle.vim
+git clone git@github.com:VundleVim/Vundle.vim.git
 
 #zenburn
 git clone git@github.com:vim-scripts/Zenburn.git
