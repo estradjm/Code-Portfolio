@@ -14,6 +14,9 @@ sudo apt-get install exuberant-ctags
 echo "Installing terminator as new terminal program..."
 sudo apt-get install terminator
 
+echo "Installing pathogen..."
+sudo apt-get install pathogen
+
 # Replacing vim config
 echo "Replace .vimrc file..."
 command cp -rfu .vimrc ~
