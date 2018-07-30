@@ -47,7 +47,7 @@ echo "Getting all the plugins..."
 cd bundle
 
 #ctrlp
-#git clone git@github.com:scrooloose/nerdtree.git
+git clone git@github.com:kien/ctrlp.vim.git
 
 #fontpatcher
 git clone git@github.com:powerline/fontpatcher.git
