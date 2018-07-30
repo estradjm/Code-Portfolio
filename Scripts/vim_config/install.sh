@@ -56,11 +56,19 @@ git clone git@github.com:powerline/fontpatcher.git
 #fonts
 git clone git@github.com:powerline/fonts.git
 
+cd fonts 
+./install.sh
+cd ../
+
 #nerdcommenter
 git clone git@github.com:scrooloose/nerdcommenter.git
 
 #nerd-fonts
 git clone git@github.com:ryanoasis/nerd-fonts.git
+
+cd nerd-fonts
+./install.sh
+cd ../
 
 # Icons for nerd tree, airline, and powerline
 git clone git@github.com:ryanoasis/vim-devicons.git
