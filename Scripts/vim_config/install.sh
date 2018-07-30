@@ -3,8 +3,7 @@
 # Retrieves all git repos needed for the .vim configuration file that are called using Pathogen
 
 BASEDIR=$(pwd)
-echo $(BASEDIR)
-
+echo $BASEDIR
 # This requires the user to enter sudo credentials for dependency
 echo -n "This installation requires sudo priveleges to install exuberant-ctags. Continue? (y/n)"
 
@@ -36,8 +35,8 @@ mkdir -p autoload/
 # Get Pathogen Plugin Installer
 echo "Getting Pathogen plugin manager..."
 cd autoload
-command cp -rfu $(BASEDIR)/pathogen.vim ~/.vim/autoload/pathogen.vim
-#url -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
+command cp -rfu $BASEDIR/pathogen.vim ~/.vim/autoload/pathogen.vim
+#curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim 
 cd ../
 
 # Get all Plug-ins for Pathogen - comment out the ones that you do not want
