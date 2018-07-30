@@ -29,7 +29,7 @@ cd ~
 mkdir -p .vim
 cd .vim
 mkdir -p syntax/
-mkdir -p bundles/
+mkdir -p bundle/
 mkdir -p autoload/
 
 # Get Pathogen Plugin Installer
@@ -41,7 +41,7 @@ cd ../
 
 # Get all Plug-ins for Pathogen - comment out the ones that you do not want
 echo "Getting all the plugins..."
-cd bundles
+cd bundle
 
 #ctrlp
 git clone git@github.com:scrooloose/nerdtree.git
@@ -83,7 +83,7 @@ git clone git@github.com:tomtom/tcomment_vim.git
 git clone git@github.com:tpope/vim-dispatch.giit
 
 #fugitive
-git clone git@github.com:tpope/vim-fugitive.git
+~/.vim/bundle/Vundle.vimgit clone git@github.com:tpope/vim-fugitive.git
 
 #vimagit
 git clone git@github.com:jreybert/vimagit.git
@@ -125,7 +125,7 @@ git clone git@github.com:suoto/vim-hdl.git
 
 
 #vundle
-git clone git@github.com:VundleVim/Vundle.vim.git
+git clone git@github.com:VundleVim/Vundle.vim.git ~/.vim/bundles/Vundle.vim
 
 #zenburn
 git clone git@github.com:vim-scripts/Zenburn.git
