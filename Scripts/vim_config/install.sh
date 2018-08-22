@@ -56,6 +56,12 @@ git clone git@github.com:powerline/fontpatcher.git
 #fonts
 git clone git@github.com:powerline/fonts.git
 
+# Because patches are needed ....
+sudo apt-get install fonts-powerline
+git clone https://github.com/powerline/fonts.git --depth=1
+fonts/install.sh
+
+
 cd fonts 
 ./install.sh
 cd ../
