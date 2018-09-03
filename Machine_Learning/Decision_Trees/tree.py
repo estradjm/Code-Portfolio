@@ -2,7 +2,7 @@
 # vim: expandtab softtabstop=4 shiftwidth=4 foldmethod=marker
 # --------------------------------------------------------------------------------------------------
 # * @file:      tree.py
-# * @authors:    George Sparrow and Jenniffer Estrada  
+# * @authors:   Jenniffer Estrada  
 # * @date:      
 # *  Created:       Sunday, September 17, 2017
 # *  Last Update:   Tuesday, September 28, 2017
