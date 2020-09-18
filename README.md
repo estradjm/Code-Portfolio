@@ -1,8 +1,8 @@
 # Schoolwork and Projects
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/estradjm/Class-Work/blob/master/LICENSE.md)
-##### A continuously updated active archive repository that includes projects that have been used for my coursework and released publically as a code portfolio for potential employers, and for general educational purposes. 
+##### A continuously updated, active archive repository that includes projects that have been used for my coursework and released publically as a code portfolio for potential employers, and for general educational purposes. (NOTE: Projects are released long after the classes finish to comply with Academic Honesty Policies.)
 
-An archive of projects in several different languages and target architectures with detailed reports and documentation for classes, organized based on general topic and individual project folders, with the language(s) in the project used clearly labelled for each project below. Projects in this repository include large and small group projects, thesis work, individual projects, and my personal VIM configuration with automatic installer script. Languages include C, C++, Python, Shell Scripting/Bash, VHDL, MATLAB, and several parallel programming languages and pragma based languages including OpenMP, MPI, OpenACC, and CUDA C. All documentation is developed in LaTeX using ShareLaTeX and is included in the repositories if used as part of the project in form of a report or presentation given in class or part of the work.  
+An archive of projects in several different languages and target architectures with detailed reports and documentation for classes, organized based on general topic and individual project folders, with the language(s) in the project used clearly labelled for each project below. Projects in this repository include large and small group projects, thesis work, individual projects, and my personal VIM configuration with automatic installer script. Languages include C, C++, Python, Shell Scripting/Bash, VHDL, MATLAB, and several parallel programming languages and pragma based languages including OpenMP, MPI, OpenACC, and CUDA C. All documentation is developed in LaTeX using Overleaf (previously ShareLaTeX) and is included in the repositories if used as part of the project in form of a report or presentation given in class or part of the work.  
 
 All code and projects are original work and copyrights belong to those who worked on the code (myself and any team members in the group projects listed in the respective project folder, or the instructor for provided code or original instructions for projects).
 
@@ -31,10 +31,6 @@ All code and projects are original work and copyrights belong to those who worke
 ### Machine Learning:
 - Genetic Algorithm solving 2D Stacking Problem (MATLAB)
 - Speaker Recognition wrapper for ALIZE/LIA RAL, SPRO, and other toolboxes (MATLAB)
-- Decision Trees (Python)
-- Logistic Regression (Python)
-- Naive Bayes (Python)
-- Convolutional Neural Network (Python)
 
 ### Signal & Image Processing: 
 - Zelda's Lost Woods song produced only with DSP concepts from sheet music (MATLAB)
@@ -44,7 +40,7 @@ All code and projects are original work and copyrights belong to those who worke
 ### Control Systems:
 - Automotive Suspension System Analysis and Simulation -- 10th High Order Control System Model (MATLAB and Simulink)
 - Satellite Antenna Azimuth Position Control System (MATLAB and Simulink)
-- LED Address Sign Time of Day Control (Arduino C++)
+- LED Address Sign Time of Day Control (Arduino)
 
 ### Digital Communications: 
 - Data Parser for Qi Compliant Inductive charger transmitter and reciever platform (Python)
