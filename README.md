@@ -41,7 +41,7 @@ All code and projects are original work and copyrights belong to those who worke
 - Zelda's Lost Woods song produced only with DSP concepts from sheet music (MATLAB)
 - Cleaning an unknown noise from a signal (MATLAB)
 - Image Processing Techniques including Gaussian Blurring (MATLAB)
-- * ISCA paper on Speaker Recognition [https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_2674.pdf]
+- * ISCA 2012 conference paper on Speaker Recognition [https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_2674.pdf]
 
 ### Control Systems:
 - Automotive Suspension System Analysis and Simulation -- 10th High Order Control System Model (MATLAB and Simulink)
