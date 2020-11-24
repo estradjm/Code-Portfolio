@@ -14,11 +14,15 @@ All code and projects are original work and copyrights belong to those who worke
 ### Parallel Programming:
 - Parallel Gaussian Blurring (C with OpenMP, MPI, OpenACC, and CUDA)
 
+- GPU Technology Conference Poster Presentation on GPU Acceleration of Large Scale Physics Fortran Codes (https://www.overleaf.com/read/nmbjvhjgmqth)
+- Parallel Programming Summer Research Program Poster Presentation at LANL Symposium 2016 (https://www.lanl.gov/projects/national-security-education-center/information-science-technology/summer-schools/parallelcomputing/_assets/images/2016projects/Estrada_reduced.pdf)
+
 ### Information Security:
 - Padding Oracle Attack on AES CBC Mode Encrypted Server Communication (Python)
 - Werewolves Server Game - Exploits (C, Python & Bash)
 - Cryptography Substitution Ciphers (C++ & Python)
 - Cryptography Block Ciphers (C++ & Python)
+- Malware Reverse Engineering Final Presentation
  
 ### Networking:
 - Client/Server Sockets on Raspberry Pi (Python)
