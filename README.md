@@ -4,7 +4,7 @@
 
 An archive of projects in several different languages and target architectures with detailed reports and documentation for classes, organized based on general topic and individual project folders, with the language(s) in the project used clearly labelled for each project below. Projects in this repository include large and small group projects, thesis work, individual projects, and my personal VIM configuration with automatic installer script. Languages include C, C++, Python, Shell Scripting/Bash, VHDL, MATLAB, and several parallel programming languages and pragma based languages including OpenMP, MPI, OpenACC, and CUDA C. All documentation is developed in LaTeX using Overleaf (previously ShareLaTeX) and is included in the repositories if used as part of the project in form of a report or presentation given in class or part of the work. 
 
-##### Special Cases: In some cases, I am unable to release code due to limitations from being proprietary, but am able to release presentations and papers relating to the work with revision to public venues such as conferences and publications, or the work itself does not produce direct code to be published. For this purpose, I have released the presentations and papers associated with links to the published work, and mark them below with * to make it clear below.
+##### Special Cases: In some cases, I am unable to release code due to limitations from being proprietary, but am able to release presentations and papers relating to the work with revision to public venues such as conferences and publications, or the work itself does not produce direct code to be published. For this purpose, I have released the presentations and papers associated with links to the published work, and mark them below with a black and white bullet point to make it clear below.
 
 All code and projects are original work and copyrights belong to those who worked on the code (myself and any team members in the group projects listed in the respective project folder, or the instructor for provided code or original instructions for projects).
 
@@ -41,6 +41,7 @@ All code and projects are original work and copyrights belong to those who worke
 - Zelda's Lost Woods song produced only with DSP concepts from sheet music (MATLAB)
 - Cleaning an unknown noise from a signal (MATLAB)
 - Image Processing Techniques including Gaussian Blurring (MATLAB)
+- * ISCA paper on Speaker Recognition [https://www.isca-speech.org/archive/archive_papers/interspeech_2012/i12_2674.pdf]
 
 ### Control Systems:
 - Automotive Suspension System Analysis and Simulation -- 10th High Order Control System Model (MATLAB and Simulink)
